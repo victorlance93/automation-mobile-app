@@ -1,0 +1,20 @@
+{
+  "login": {
+    "account": {
+      "email": "victor.lance@going2.com.br",
+      "password": "Test123#"
+    }
+  },
+  "inv_email": {
+    "account": {
+      "email": "victor.lance#going2.com.br",
+      "password": "Test123#"
+    }
+  },
+  "inv_pass": {
+    "account": {
+      "email": "victor.lance@going2.com.br",
+      "password": "Test123@"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "android": {
+      "button_skill_post": "//android.view.ViewGroup[@content-desc='Skills post']/android.widget.TextView",
+      "": "" 
+    }
+  }
