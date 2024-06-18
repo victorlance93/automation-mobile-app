@@ -7,8 +7,10 @@ Test Teardown     Finish session
 
 *** Test Cases ***
 Check Feed Open App
+    [Tags]    feed
     Onboarding tour
     Interact with Feed with Open App
+    Click on post button
     Check modal signup
 Check Raking Open App
     Onboarding tour

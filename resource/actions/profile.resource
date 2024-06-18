@@ -11,7 +11,7 @@ ${filter_post}        //android.view.ViewGroup[@content-desc="Filter Post"]
 ${settings}           //android.view.ViewGroup[@content-desc="Settings"]
 ${menu_burguer}       //android.view.ViewGroup[@package='world.footbao.footbao.stag' and @class='android.view.ViewGroup' and @resource-id='profile_V2_Header_ButtonMenuHamburguer']
 ${message_button}     //android.view.ViewGroup[@package='world.footbao.footbao.stag' and @class='android.view.ViewGroup' and @resource-id='profile_V2_Header_ButtonMessage']
-${notification}       //android.view.ViewGroup[@package='world.footbao.footbao.stag' and @class='android.view.ViewGroup' and @resource-id='profile_V2_Header_ButtonNotifications']
+${notification}       //android.view.ViewGroup[@resource-id='profile_V2_Header_ButtonSettings' and @package='world.footbao.footbao.stag']
 ${mgm_button}         //android.view.ViewGroup[@package='world.footbao.footbao.stag' and @class='android.view.ViewGroup' and @resource-id='profile_V2_Header_ButtonShareMgm']
 
 *** Keywords ***
@@ -36,3 +36,7 @@ Click on settings
 Click on menu burguer
     Wait Until Page Contains Element    xpath=${menu_burguer}    30
     Click Element    xpath=${menu_burguer}
+
+Click on notification
+    Wait Until Page Contains Element    xpath=${notification}    30
+    Click Element    xpath=${notification}
